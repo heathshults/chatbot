@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ConversationComponent } from '../conversation/conversation.component';
 import { MatIconModule } from '@angular/material/icon';
-import { PromptComponent } from './app-prompt/app-prompt.component';
+import { PromptComponent } from './app-prompt/prompt.component';
 import { ChatBotService } from './chatbot-service';
 import { HttpClientModule } from '@angular/common/http';
 import { IConversationMessage } from '../interfaces/conversation-message';
